@@ -1,0 +1,67 @@
+.wrapper {
+border: 1px solid;
+width:1800px;
+height:1050px;
+margin :0 auto;
+}
+
+.header
+{
+	
+font-size: 40 px;
+border-bottom:1px solid;
+padding: 10px;
+}
+#navMenu {
+margin:0px;
+padding:0px;
+}
+
+#navMenu ul {
+margin:0px;
+padding:0px;
+
+}
+#navMenu ul li {
+	background-color:black;
+	border:1px solid white;
+	width:298px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:30px;
+
+float:left;
+text-align:center;
+border-bottom:1px solid red;
+
+}
+ #navMenu ul li a {
+	 color:white;
+	 text-align:center;
+	 font-family:"Comic Sans MS", cursive;
+	 text-decoration:none;
+	display:block;
+ }
+ #navMenu ul li :hover
+ {
+	 background-color:red;
+ }
+ 
+ #navMenu ul li ul li{
+	 display:none;
+ }
+ 
+ 
+ #navMenu ul li:hover ul li{
+	 
+	 display:block;
+ }
+  
+ .featBooks img{
+	 height:200px;
+	 width:200px;
+	 margin:5px;
+padding:5px;
+ }
+ 
